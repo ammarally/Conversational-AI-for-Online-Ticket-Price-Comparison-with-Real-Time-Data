@@ -20,7 +20,7 @@ This project is a conversational AI chatbot built using the Rasa framework to st
 ## Installation
 1. Clone this repository:
    ```bash
-   git clone <repository_url>
+   git clone <https://github.com/ammarally/Conversational-AI-for-Online-Ticket-Price-Comparison-with-Real-Time-Data/tree/main>
    ```
 2. Navigate to the project directory:
    ```bash
