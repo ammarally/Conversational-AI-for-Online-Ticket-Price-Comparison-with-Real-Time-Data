@@ -5,7 +5,7 @@ from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 import openai
 # Initialize OpenAI API
-openai.api_key = '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'  # Replace with your actual OpenAI API key
+openai.api_key = 'sk-proj-AsXxsWTz1nXCVXDO_D22N6chECrtFfFLdGSZjwetQE_gHV7eZKun9w7TxTT3BlbkFJoTNRAhhlqy2bSF--------'  # Replace with your actual OpenAI API key
 
 # Function to fetch ticket information and format the response
 def get_ticket_info(event: Text, location: Text) -> Text:
@@ -44,7 +44,7 @@ def get_ticket_info(event: Text, location: Text) -> Text:
 def fetch_ticket_data_from_ticketmaster(event, location):
     url = "https://app.ticketmaster.com/discovery/v2/events.json"
     params = {
-        'apikey': 'GFaDqGrEbXuVFMpqKPjjH9ujR43iVeJv',  # Your API Key
+        'apikey': 'GFaDqGrEbXuVFMpqKP*********',  #  API Key
         'keyword': event,
         'city': location
     }
